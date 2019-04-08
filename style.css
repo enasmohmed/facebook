@@ -1,0 +1,202 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+}
+
+.clear
+{
+  clear: both;
+}
+.header
+{
+    background-color: #3b5998;
+    height: 85px;
+    width: 100%;
+}
+
+.container
+{
+    width: 72%;
+    margin: 0 auto;
+
+}
+
+.container .label
+{
+    width: 45%;
+    float: left
+
+
+}
+
+.container .login
+{
+    width: 45%;
+    float: right;
+    color: #fff;
+}
+
+.login a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+
+.container .label h1
+{
+    font-size: 44px;
+    padding-left: 5px;
+    color: #fff;
+
+}
+
+.container .login .email
+{
+  float: left;
+  width: 40%;
+  padding-top: 15px;
+  margin-left: 30px;
+}
+
+ input[type='text'],input[type='password']
+{
+  margin-top: 5px;
+}
+.container .login .pass
+{
+  float: left;
+  padding-top: 15px;
+}
+
+input[type='submit']
+{
+  margin-top: 38px;
+  margin-left: 6px;
+  background-color: #1f1fa7;
+  border: none;
+  color: #fff;
+  padding: 3px 7px;
+  font-weight: bold;
+}
+
+input[type='submit']:hover
+{
+  background-color: #4444d4;
+}
+
+.content
+{
+  float: left;
+  width: 50%;
+  color: #063865;
+}
+
+.content h3
+{
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.singup
+{
+  float: right;
+  width: 50%;
+  padding-left: 75px;
+  box-sizing: border-box;
+}
+.singup h1 , .singup h3
+{
+  color: #444;
+  margin: 8px;
+}
+
+.singup input:nth-child(3)
+{
+  width: 48%;
+  margin-right: 4px;
+  height: 35px;
+  float: left;
+}
+
+.singup input:nth-child(4)
+{
+  width: 48%;
+  height: 35px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 0;
+}
+
+.singup input:nth-child(5),.singup input:nth-child(6)
+{
+  width: 100%;
+  margin-top: 8px;
+  height: 35px;
+}
+
+.singup input
+{
+  border-radius: 5px;
+  border: 1px solid #999;
+  padding-left: 3px;
+  font-size: 18px;
+}
+
+::-webkit-input-placeholder
+{
+  color: #aaa;
+}
+
+.singup .link
+{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+select
+{
+  height: 30px;
+  margin-right: 2px;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+.singup p
+{
+  color: #333;
+  font-size: 14px;
+}
+
+button
+{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #1c6f05;
+  margin-bottom: 20px;
+  color: #fff;
+  margin-top: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover
+{
+  background-color: #34ad13;
+}
+
+.singup .create
+{
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.singup span
+{
+  color: #555;
+}
